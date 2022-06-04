@@ -161,8 +161,8 @@ class Unmined {
         });
 
         if (options.markers) {
-            var markersLayer = this.createMarkersLayer(options.markers, dataProjection, viewProjection);
-            map.addLayer(markersLayer);
+                var markersLayer = this.createMarkersLayer(options.markers, dataProjection, viewProjection);
+                map.addLayer(markersLayer);
         }
         
         if (options.background){
@@ -198,6 +198,7 @@ class Unmined {
                     font: item.font,
                     offsetX: item.offsetX,
                     offsetY: item.offsetY,
+                    scale: 0.8,
                     fill: new ol.style.Fill({
                         color: item.textColor
                     })

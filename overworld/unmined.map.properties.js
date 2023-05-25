@@ -4,11 +4,11 @@ var UnminedMapProperties = {
     maxZoom: 2,
     defaultZoom: 0,
     imageFormat: "jpeg",
-    minRegionX: -11,
-    minRegionZ: -26,
-    maxRegionX: 49,
-    maxRegionZ: 48,
-    worldName: "RonaCraft 2 06/04/22 15:50:34 - Copy",
+    minRegionX: -8,
+    minRegionZ: -11,
+    maxRegionX: 8,
+    maxRegionZ: 2,
+    worldName: "RonaCraft 3",
     background: "",
     markers: new Array()
 }

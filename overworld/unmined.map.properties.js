@@ -8,7 +8,7 @@ var UnminedMapProperties = {
     minRegionZ: -11,
     maxRegionX: 8,
     maxRegionZ: 2,
-    worldName: "RonaCraft 3",
+    worldName: "RonaCraft 3 - Copy",
     background: "",
     markers: new Array()
 }
